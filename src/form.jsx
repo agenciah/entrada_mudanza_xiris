@@ -14,7 +14,7 @@ function Form() {
     empresaMudanza: '',
     datosChofer: '',
     notas: '',
-    nombreCondominio: 'Xiris',
+    nombreCondominio: 'Condominio Xiris',
   });
 
   const handleChange = (e) => {
@@ -165,7 +165,7 @@ function Form() {
         <div style={{ position: 'absolute', top: '530px', left: '278px', color: 'black', fontSize: '18px' }}>
           {formData.unidadPrivativa}
         </div>
-        <div style={{ position: 'absolute', top: '575px', left: '274px', color: 'black', fontSize: '18px' }}>
+        <div style={{ position: 'absolute', top: '570px', left: '274px', color: 'black', fontSize: '18px' }}>
           {formData.nombreResidente}
         </div>
         {formData.tipoResidente === 'Inquilino' && (
@@ -178,7 +178,7 @@ function Form() {
             <div key={index}>{line}</div>
           ))}
         </div>
-        <div style={{ position: 'absolute', top: '730px', left: '275px', color: 'black', fontSize: '18px' }}>
+        <div style={{ position: 'absolute', top: '720px', left: '275px', color: 'black', fontSize: '18px' }}>
           {formData.empresaMudanza}
         </div>
         <div style={{ position: 'absolute', top: '775px', left: '275px', color: 'black', fontSize: '18px', whiteSpace: 'pre-wrap' }}>
@@ -191,7 +191,7 @@ function Form() {
             <div key={index}>{line}</div>
           ))}
         </div>
-        <div style={{ position: 'absolute', top: '254px', left: '564px', color: 'white', fontSize: '48px', textTransform: 'uppercase' }}>
+        <div style={{ position: 'absolute', top: '254px', left: '324px', color: 'white', fontSize: '48px', textTransform: 'uppercase' }}>
           {formData.nombreCondominio}
         </div>
       </div>
