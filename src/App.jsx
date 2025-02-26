@@ -1,4 +1,3 @@
-import React from 'react';
 import Form from './form';
 import { Container, Typography, Box, useMediaQuery } from '@mui/material';
 import residenza_logo from "/home/alex1986/entrada_mudanza_xiris/src/assets/Residenza_logo.jpg";

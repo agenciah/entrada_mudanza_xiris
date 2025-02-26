@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import html2canvas from 'html2canvas';
-import { TextField, Button, Container, Typography, Select, MenuItem, FormControl, InputLabel } from '@mui/material';
+import { TextField, Button, Container, Select, MenuItem, FormControl, InputLabel } from '@mui/material';
 import background from '/home/alex1986/entrada_mudanza_xiris/src/assets/AUTORIZACION DE MUDANZA.jpg';
 
 function Form() {
